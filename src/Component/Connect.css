@@ -1,0 +1,65 @@
+.connect {
+  width: 100%;
+  padding: 120px 0;
+}
+.asana_Connect {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.asana_Connect h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 20px;
+}
+.asana_Connect p {
+  font-size: 19px;
+  font-weight: 500;
+  color: black;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.inte {
+  padding: 16px 30px;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  background: black;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.inte:hover {
+  background: lightgray;
+}
+
+@media (max-width: 768px) {
+
+  .connect {
+    padding: 80px 0;
+  }
+
+  .asana_Connect {
+    width: 90%;
+  }
+
+  .asana_Connect h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  .asana_Connect p {
+    font-size: 15px;
+  }
+
+  .inte {
+    width: 30%; 
+    padding: 14px;
+  }
+}

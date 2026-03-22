@@ -1,0 +1,45 @@
+.see{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.see_How{
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    align-content: center;
+    /* background-color: aliceblue; */
+    padding-top: 10%;
+}
+.see_How h1{
+     font-size: 42px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 750;
+    line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+    .see{
+    width: 95%;
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.see_How{
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.see_How h1{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+}
+}

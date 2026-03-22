@@ -1,0 +1,252 @@
+.main_Marketing{
+    width: 95%;
+    background-color: white;
+    height: 100vh;
+    margin: 0 auto; 
+    border-radius: 10px;
+    border: 1px solid lightgrey ;
+}
+.all_Btns{
+    width: 95%;
+    background-color: white;
+    height: 20vh;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+.marketing_Btn,
+.operations_Btn,
+.leadership_Btn,
+.it_Btn {
+  padding: 2px 24px;   
+  border: none;
+  border-radius: 9999px;   
+  font-size: 15px;  
+  height: 9vh;        
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: "Inter", sans-serif;
+}
+.marketing_Btn {
+  background-color: #FADADD; 
+  color: #1A1A1A;            
+}
+
+.marketing_Btn:hover {
+  background-color: #F8C8CC;
+}
+.operations_Btn,
+.leadership_Btn,
+.it_Btn {
+  background-color: #F2F3F5; 
+}
+
+.operations_Btn:hover,
+.leadership_Btn:hover,
+.it_Btn:hover
+ {
+  background-color: #E4E6E9;
+}
+
+.maxi{
+    width: 95%;
+    /* background-color: aqua; */
+    height: 70vh;
+     margin: 0 auto;
+     display: flex;
+     gap: 20px;
+     padding-top: 30px;
+}
+.campaign{
+    width: 55%;
+    /* background-color: aqua; */
+    height: 65vh;
+    /* padding-top: 20px; */
+}
+.campaign img{
+    width: 100%;
+    height: 100%;
+}
+.roi{
+   padding: 10px 20px;
+    max-width: 400px;
+}
+.maxi_Campaign {
+      font-family: 'Inter', sans-serif;
+    font-size: 33px;
+    font-weight: 520;
+    color: black;
+    margin-bottom: 50px;
+}
+.feature_list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.feature_list li {
+   font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+.feature_list li::before {
+  content: "✓";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 14px;
+  height: 14px;
+  border-radius: 60%;
+  border: 1px solid black;
+  background-color: white;
+  color: black;            
+  font-size: 11px;
+  font-weight: 200;
+  margin-top: 2px;           
+}
+.features_btn{
+    margin-top: 60px;
+}
+.feature_btn{
+            padding: 13px 26px;
+            color: black;
+            height: 10vh;
+            border: none;
+            border-radius: 25px;
+            background: F2F3F5;
+            font-weight: 500;
+            font-size: 16px;
+            cursor: pointer;
+ }
+.feature_btn:hover {
+    background: lightgray;
+}
+
+@media (max-width: 768px) {
+    .main_Marketing{
+    width: 95%;
+    background-color: white;
+    height: 80vh;
+    margin: 0 auto; 
+    border-radius: 10px;
+    border: 1px solid lightgrey ;
+}
+    .all_Btns{
+    width: 50%;
+    height: 10vh;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+.marketing_Btn,
+.operations_Btn,
+.leadership_Btn,
+.it_Btn {
+  padding: 2px 16px;   
+  border: none;
+  border-radius: 9999px;   
+  font-size: 12px;  
+  height: 7vh;        
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: "Inter", sans-serif;
+}
+.campaign{
+    width: 55%;
+    height: 60vh;
+}
+.campaign img{
+    width: 100%;
+    height: 100%;
+}
+.roi{
+   padding: 10px 20px;
+    max-width: 400px;
+    height: 80%;
+}
+.maxi_Campaign {
+      font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 30px;
+}
+.feature_list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.feature_list li {
+   font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+.feature_list li::before {
+  content: "✓";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 14px;
+  height: 14px;
+  border-radius: 60%;
+  border: 1px solid black;
+  background-color: white;
+  color: black;            
+  font-size: 11px;
+  font-weight: 200;
+  margin-top: 2px;           
+}
+.features_btn{
+    margin-top: 40px;
+}
+.feature_btn{
+            padding: 13px 26px;
+            color: black;
+            height: 10vh;
+            border: none;
+            border-radius: 25px;
+            background: F2F3F5;
+            font-weight: 500;
+            font-size: 16px;
+            cursor: pointer;
+ }
+}
+
+@media (max-width: 480px) {
+.main_Marketing{
+    width: 100%;
+    background-color: white;
+    height: 70vh;
+    margin: 0 auto; 
+    border-radius: 10px;
+    border: 1px solid lightgrey ;
+}
+    .all_Btns{
+    width: 10%;
+    height: 10vh;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+.campaign{
+    display: none;
+}
+}

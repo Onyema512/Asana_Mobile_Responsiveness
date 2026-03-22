@@ -1,0 +1,46 @@
+.icon_Cont {
+  width: 100%;
+  padding: 10px;
+}
+.top_Icon,
+.down_Icon {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 25px;
+  margin-bottom: 25px;
+}
+.icon_item {
+  width: 120%;
+  height: 150px;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+.icon_item img {
+  width: 150px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+
+  .top_Icon,
+  .down_Icon {
+    gap: 8px;
+  }
+
+  .icon_item {
+    height: 70px;
+  }
+
+  .icon_item img {
+    width: 50px;
+  }
+}

@@ -1,0 +1,94 @@
+.secure{
+    width: 100%;
+    /* background-color: aqua; */
+    /* height: 70vh; */
+    padding-top: 150px;
+}
+.gov{
+    width: 95%;
+    /* height: 50%; */
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    padding: 30px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.gov_Image{
+    width: 250px;
+}
+.gov_Image img{
+    width: 100%;
+    height: auto;
+}
+.asana_Gov {
+  flex: 1;
+  max-width: 600px;
+}
+.asana_Gov h3 {
+    font-size: 28px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 10px;
+}
+.asana_Gov p {
+  font-size: 17px;
+  color: black;
+  line-height: 1.6;
+}
+.gov_Btn {
+  padding-bottom: 30px;
+}
+
+.check {
+  padding: 18px 26px;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  background: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  align-items: center;
+  justify-content: center;
+}
+.check:hover {
+  background: lightgray;
+}
+
+@media (max-width: 768px) {
+    .secure{
+    width: 95%;
+   margin: 0 auto;
+    padding-top: 80px;
+}
+.gov {
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 20px;
+    padding: 25px;
+  }
+    .gov_Image {
+    width: 180px;
+  }
+
+  .asana_Gov h3 {
+    font-size: 20px;
+  }
+
+  .asana_Gov p {
+    font-size: 14px;
+  }
+  .gov_Btn {
+    padding-bottom: 0;
+    width: 80%;
+  }
+  .check {
+    width: 40%; 
+    padding: 14px;
+  }
+}
