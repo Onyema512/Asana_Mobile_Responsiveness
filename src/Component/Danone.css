@@ -1,0 +1,133 @@
+.danone{
+    width: 100%;
+    padding: 60px 0;
+}
+.danone_Top{
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.arrow2{
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+.arrow2:hover{
+    background: black;
+    color: white;
+}
+.danone_Cont{
+    width: 90%;
+    height: 90vh;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.danone_Left {
+    flex: 1;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.danone_logo {
+    width: 120px;
+    height: 100px;
+    /* margin-bottom: 10px; */
+}
+.danone_Info {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    line-height: 1.2
+    
+}
+.danone_Info p {
+    font-size: 15px;
+    color: gray;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.danone_Info h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.danone_Right {
+    flex: 2;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    background-color: lightblue;
+    color: rgb(31, 31, 153);
+}
+.danone_To{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.danone_Quote {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.danone_Name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.danone_Role {
+    font-size: 16px;
+    /* color: black; */
+}
+.case_btn{
+  padding: 18px 22px;
+  color: rgb(31, 31, 153);
+  /* height: 10vh; */
+  border: 1px solid rgb(31, 31, 153);;
+  border-radius: 30px;
+  background: transparent;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  width: 35%;
+  align-self: flex-end;
+  transition: all 0.3s ease;
+}
+.case_btn:hover {
+    background: lightskyblue;
+}
+
+@media (max-width: 768px) {
+    .danone_Cont {
+        flex-direction: column;
+    }
+    .case_btn{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .danone_Quote {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.danone_Name {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+}

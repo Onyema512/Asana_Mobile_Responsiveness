@@ -22,7 +22,7 @@
   margin-bottom: 30px;
 }
 .inte {
-  padding: 16px 30px;
+ padding: 16px 30px;
   border-radius: 30px;
   border: 1px solid lightgray;
   background: black;
@@ -32,7 +32,7 @@
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  transition: 0.3s ease;
+  transition: 0.3s ease; 
 }
 
 .inte:hover {
@@ -50,8 +50,8 @@
   }
 
   .asana_Connect h1 {
-    font-size: 32px;
-    line-height: 1.3;
+   font-size: 32px;
+    line-height: 1.3; 
   }
 
   .asana_Connect p {

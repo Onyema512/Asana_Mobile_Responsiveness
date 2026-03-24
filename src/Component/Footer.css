@@ -1,0 +1,260 @@
+.all_Footer {
+    width: 100%;
+    background: rebeccapurple; 
+    color: white;
+    margin-top: 70px;
+}
+.footer_Top {
+    width: 95%;
+    padding: 80px 0;
+    border-bottom: 1px solid gray; 
+    margin: 0 auto;
+}
+
+.footer_Container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.footer_Container h1 {
+    font-size: 52px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.get_Started {
+    padding: 16px 28px;
+    border-radius: 24px;
+    background: white;
+    color: black;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.get_Started:hover {
+    background: lightgray;
+}
+
+.footer_Dec {
+    font-size: 16px;
+    color: lightgray;
+    margin-top: 70px;
+}
+.footer_Grid_Wrapper {
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    gap: 30px;
+}
+.footer_Logo{
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.footer_Logo img {
+    width: 30px;
+    margin-bottom: 30px;
+}
+.footer_Grid {
+    display: flex;
+    gap: 80px;
+}
+
+.lists_Column h3 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.lists_Column li {
+    list-style: none;
+    font-size: 14px;
+    color: lightgray;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.lists_Column li:hover {
+    color: white;
+}
+.footer_Bottom {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid dimgray;
+}
+.footer_Left {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer_Left p {
+    font-size: 14px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.footer_Left p:hover {
+    color: white;
+}
+.footer_Middle {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer_Apps {
+    display: flex;
+    gap: 10px;
+}
+.footer_Apps img {
+    width: 25px;
+    cursor: pointer;
+    border-radius: 150px;
+    border: 1px solid lightgray;
+    font-size: large;
+    transition: all 0.3s ease;
+}
+.footer_Apps img:hover {
+    opacity: 0.7;
+}
+.terms {
+    font-size: 14px;
+    color: lightgray;
+    cursor: pointer;
+}
+.terms:hover {
+    color: white;
+}
+.footer_Store {
+    display: flex;
+    gap: 10px;
+}
+
+.footer_Store img {
+    width: 110px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .footer_Container {
+      padding: 40px 20px;
+      text-align: center;
+  }
+  .footer_Container h1 {
+      font-size: 32px;
+  }
+  .get_Started {
+      padding: 12px 28px;
+      font-size: 14px;
+  }
+  .footer_Dec {
+      font-size: 12px;
+  }
+  .footer_Grid_Wrapper {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 30px 10px;
+  }
+  .footer_Logo img {
+      width: 50px;
+      margin-bottom: 20px;
+  }
+  .footer_Grid {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+  }
+
+  .lists_Column h3 {
+      font-size: 14px;
+  }
+
+  .lists_Column ul li {
+      font-size: 12px;
+  }
+  .footer_Bottom {
+      flex-direction: column;
+      gap: 15px;
+      padding: 20px 10px;
+      align-items: center;
+  }
+
+  .footer_Left, .footer_Middle, .footer_Store {
+      flex: 1 1 100%;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .footer_Store img {
+      width: 90px;
+  }
+
+  .footer_Apps img {
+      width: 14px;
+  }
+
+  .footer_Left p, .terms {
+      font-size: 11px;
+  }
+}
+@media (max-width: 480px) {
+  .footer_Container {
+      padding: 30px 15px;
+  }
+
+  .footer_Container h1 {
+      font-size: 24px;
+  }
+
+  .get_Started {
+      padding: 10px 22px;
+      font-size: 12px;
+  }
+
+  .footer_Dec {
+      font-size: 10px;
+  }
+  .footer_Grid_Wrapper {
+      gap: 20px;
+  }
+
+  .footer_Logo img {
+      width: 40px;
+      margin-bottom: 15px;
+  }
+
+  .footer_Grid {
+      gap: 15px;
+  }
+
+  .lists_Column h3 {
+      font-size: 12px;
+  }
+
+  .lists_Column ul li {
+      font-size: 10px;
+  }
+  .footer_Bottom {
+      gap: 10px;
+      padding: 15px 10px;
+  }
+
+  .footer_Store img {
+      width: 80px;
+  }
+
+  .footer_Apps img {
+      width: 12px;
+  }
+
+  .footer_Left p, .terms {
+      font-size: 10px;
+  }
+}
